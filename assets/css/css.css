@@ -1,0 +1,114 @@
+body {
+	background: url("../images/minimal-gray.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-size: 16px; font-family: 'Poppins', serif; width: 100%; height: 100%; margin: 0; font-weight: 400;
+	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
+	color: #333;
+}
+.margin-t-10{ margin-top: 10px; }
+.margin-b-30{ margin-bottom: 30px; }
+.margin-b-50{ margin-bottom: 50px; }
+.margin-tb-30{ margin-top: 30px; margin-bottom: 30px; }
+
+.header{
+background: linear-gradient(to top, rgba(255,0,0,0), rgb(124, 111, 111));
+}
+.header-img-top {
+	width: 100%;
+
+}
+
+.avatar-xxl img {
+	width: 250px !important;
+	height: auto;
+}
+
+.avatar2-xxl img {
+	width: 100px !important;
+	height: auto;
+}
+
+.c8311 {
+	color: black;
+	width: 32px;
+	height: 32px;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.social-network a.icoGit:hover {
+	background-color: black;
+}
+.social-network a.icoInsta:hover {
+	background-color: orangered;
+}
+.social-network a.icoTelegram:hover {
+	background-color: black;
+}
+
+.social-network a.icoGit:hover i, .social-network a.icoTelegram:hover i, .social-network a.icoInsta:hover i {
+	color:#fff;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:30px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: black;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+a {
+ background-color: #D3D3D3;   
+
+}
+h1, h2, h3, h4, h5, h6, p, a, ul, span, li, img, inpot, 
+button{ margin: 0; padding: 0; }
+
+li{ list-style: none; display: inline-block; }
+
+.section{ padding: 30px; border-bottom: 1px solid #ddd; }
+
+.intro{ position: relative; background-size: cover; 
+	z-index: 1;background: url("../images/header.png")};
